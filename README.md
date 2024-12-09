@@ -1,18 +1,27 @@
 # ToDo App
 
-## Overview
-This is a simple ToDo app backend built with Node.js and Express. It supports creating, reading, updating, and deleting tasks.
+## Description
+Ce projet est une application simple de gestion de tâches (CRUD) développée en Node.js avec Express. Elle utilise SQLite comme base de données pour l'environnement de développement et MySQL pour la production. Le projet est entièrement dockerisé.
 
-## Features
-- CRUD API for tasks
-- SQLite for development, MySQL for production
-- Dockerized with Docker Compose support
+---
 
-## Instructions
-1. Clone the repository.
-2. Run `docker-compose up` to start the development environment.
-3. Use Postman or curl to interact with the API on `http://localhost:3000/api/tasks`.
+## Fonctionnalités
+- **Ajouter** une tâche.
+- **Lister** toutes les tâches.
+- **Mettre à jour** une tâche.
+- **Supprimer** une tâche.
 
-### Environment Variables
-- `.env.development`: Development environment configuration.
-- `.env.production`: Production environment configuration.
+---
+
+## Prérequis
+- **Docker** : [Installation de Docker](https://docs.docker.com/get-docker/)
+- **Docker Compose** : [Installation de Docker Compose](https://docs.docker.com/compose/install/)
+
+---
+
+## Installation et Lancement
+### 1. Cloner le projet
+Téléchargez ou clonez ce dépôt sur votre machine locale :
+```bash
+git clone https://votre-lien-vers-le-depot.git
+cd todo-app
